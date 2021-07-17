@@ -1,5 +1,16 @@
 body{
-    background-color: antiquewhite;
-    background-image: ;
-    
+    background-color:purple;
 }
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large
+}
+.img-container{
+    text-align: center;
+    display: block;}
