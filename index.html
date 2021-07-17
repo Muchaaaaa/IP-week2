@@ -14,13 +14,29 @@
             <div class="p">
             You are required to enter your birthday and select your gender below 
             to be able to access your Akan name.
-
-    <form action="/action_page.php">
-        <label for="birthday">Birthday:</label>
-        <input type="date" id="birthday" name="birthday">
-        <button type="button" class="btn-btn-primary" onclick="onSubmit()">
-    </form>
+            <br>
+        </div>
+        </p>
+        <p>
+            <div class="form">
+            <form action="/action_page.php">
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+                <button type="button" class="btn-btn-primary" onclick="onSubmit()">
+                </button>   
+            </form>   
             </div>
+            
+        </p>
+            <div class="form">
+                  <form action="/action_page.php">
+                    <input type="radio" id="Male" name="GENDER" value="Male">
+                    <label for="Male">MALE</label><br>
+                    <input type="radio" id="Female" name="GENDER" value="Female">
+                    <label for="Female">FEMALE</label><br>
+            
+                  </form>
+                </div>
         </p>
 
         <span class="img-container"></span><img src="images/butterfly image.jpg" width="900" height="400">
