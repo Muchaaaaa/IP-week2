@@ -1,4 +1,4 @@
-body{
+.body{
     background-color:purple;
 }
 h1{
@@ -11,6 +11,10 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
     text-decoration: gold;
+}
+.form{
+
+    
 }
 .img-container{
     text-align: center;
